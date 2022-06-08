@@ -1,0 +1,24 @@
+/************************* Layout***************************/
+/* burada anasayfanın arkaplani rengi ve yazı tipini belirledik. */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    color:red; 
+    font-size:84px; 
+    text-transform: uppercase;
+
+}
+/* burada yazı boyutunu ayarlıyoruz */
+p {
+
+    font-size:50px;
+}
+/* burada renk ve boyut ayarladık. */
+ul {
+    color: blue;
+    font-size: 35px;
+}

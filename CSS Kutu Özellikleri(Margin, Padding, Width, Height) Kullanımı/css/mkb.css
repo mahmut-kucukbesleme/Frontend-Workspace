@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card   {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+/*  yuvarlak yapılar için border radius özelliğini kullanaracağıaz */
+
+.container {
+    width: 1000px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 50px auto 0;
+}
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content    {
+    width: 800px;
+    float: left;
+
+}
+/* h1 {
+    float: left;
+} */
+
+.clearfix {
+    clear: both;
+}
+
+/* .box {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+} */
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+/************************* Layout***************************/
+/* burada anasayfanın arkaplani rengi ve yazı tipini belirledik. */
+
+
+/* Öncelikle clas ve id yazılımını görelim */
+/* class -> .text-red {} */
+/*  id -> #id-bilgisi {} */
+
+/* css selectors - 08.06.2022 */  
+
+/* li:first-child {
+    color: green;
+}
+li:last-child {
+    color: aqua;
+} */
+
+/* li:nth-child(odd) {
+    background-color: red;
+}
+li:nth-child(even) {
+    background-color: blue;
+} */
+/* a.test:hover {
+    color: red;
+  }
+
+  a:active {
+    position: relative;
+    top: 5px;
+  }
+
+[name]{
+    color: orange;
+  }
+
+li:nth-child(2n){
+    color: blue;
+} */
+
+.color-blue.fw-normal {
+    color:blue;
+    font-weight: normal;
+}
+
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-size: 30px;
+    color:#bd5336;
+} */
+
+/* p { 
+    font-size: 20px;
+}
+
+#first-article {
+    font-size: 40px;
+}
+
+.text-red {
+    color:white;
+    background-color:#82c5d8;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+} */

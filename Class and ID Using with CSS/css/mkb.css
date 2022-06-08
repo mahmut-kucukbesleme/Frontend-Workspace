@@ -1,0 +1,37 @@
+/************************* Layout***************************/
+/* burada anasayfanın arkaplani rengi ve yazı tipini belirledik. */
+
+
+/* Öncelikle clas ve id yazılımını görelim */
+/* class -> .text-red {} */
+/*  id -> #id-bilgisi {} */
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 30px;
+    color:#bd5336;
+}
+
+p { 
+    font-size: 20px;
+}
+
+#first-article {
+    font-size: 40px;
+}
+
+.text-red {
+    color:white;
+    background-color:#82c5d8;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
